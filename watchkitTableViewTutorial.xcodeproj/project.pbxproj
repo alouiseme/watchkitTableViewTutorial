@@ -23,6 +23,8 @@
 		CE4F862D21DFABC20058A44A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F862C21DFABC20058A44A /* NotificationController.swift */; };
 		CE4F862F21DFABC20058A44A /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F862E21DFABC20058A44A /* ComplicationController.swift */; };
 		CE4F863121DFABC30058A44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4F863021DFABC30058A44A /* Assets.xcassets */; };
+		CE4F864A21DFB2D10058A44A /* RowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4F864921DFB2D10058A44A /* RowController.swift */; };
+		CE6696B921DFE35B00A154B5 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6696B821DFE35B00A154B5 /* DetailInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +109,8 @@
 		CE4F863021DFABC30058A44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE4F863221DFABC30058A44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE4F863321DFABC30058A44A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		CE4F864921DFB2D10058A44A /* RowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowController.swift; sourceTree = "<group>"; };
+		CE6696B821DFE35B00A154B5 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,8 @@
 				CE4F863021DFABC30058A44A /* Assets.xcassets */,
 				CE4F863221DFABC30058A44A /* Info.plist */,
 				CE4F863321DFABC30058A44A /* PushNotificationPayload.apns */,
+				CE4F864921DFB2D10058A44A /* RowController.swift */,
+				CE6696B821DFE35B00A154B5 /* DetailInterfaceController.swift */,
 			);
 			path = "watchkitTableViewTutorial WatchKit Extension";
 			sourceTree = "<group>";
@@ -437,6 +443,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6696B921DFE35B00A154B5 /* DetailInterfaceController.swift in Sources */,
+				CE4F864A21DFB2D10058A44A /* RowController.swift in Sources */,
 				CE4F862D21DFABC20058A44A /* NotificationController.swift in Sources */,
 				CE4F862F21DFABC20058A44A /* ComplicationController.swift in Sources */,
 				CE4F862B21DFABC20058A44A /* ExtensionDelegate.swift in Sources */,
